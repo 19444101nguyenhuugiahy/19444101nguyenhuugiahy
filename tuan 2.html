@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{padding:0px; margin: auto;}
+        .wrapper{width:1089px ;height:900px ;background-color: rgb(22, 171, 190); }
+        header{width: 1089px;height:200px ;background-color:rgb(230, 159, 226) ;}
+        nav{width:1089px ;height:50px ;background-color:yellow ;}
+        .content{width:1089px ;height:500px ;background-color:rgb(95, 100, 44) ;}
+        footer{width:1089px ;height:150px ;background-color:rgb(90, 60, 173) ;}
+        section{width:40% ;height:100% ;background-color:rgb(194, 88, 88) ;float: left;}
+        aside{width:60% ;height:100% ;background-color:rgba(109, 178, 199, 0.26) ;float: left;}
+        .menu li{width: 150px;float: left;line-height: 50px;list-style: none;text-indent: 5px; 
+            background-color: rgb(0, 255, 21);position: relative;}
+        li a{text-decoration: none;font-weight: bold;color:rgb(255, 72, 0)}
+        li:hover{background-color: blue;}
+        li:hover>a{color: yellow;font-style: italic;}
+        li .sub-menu{ display: none;position: absolute;}
+        li:hover>.sub-menu{display: block;}
+        li .sub-menu li:hover>.sub-menu{top:0px;left: 150px; }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+
+        </header>
+        <nav>
+            <ul class="menu">
+                <li><a href="#">NHA BEP</a>
+                    <ul class="sub-menu">
+                        <li><a href="#"> NOI COM</a></li>
+                        <li><a href="#"> CHAO </a></li>
+                        <li><a href="#"> BEP</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">QUAN AO</a>
+                    <ul class="sub-menu">
+                        <li><a href="#"> QUAN </a></li>
+                        <li><a href="#"> AO</a></li>
+                        <li><a href="#"> GIAY DEP</a></li>
+                    </ul>
+                </li>
+                <li><a href="#"> DIEN TU</a>
+                    <ul class="sub-menu">
+                        <li><a href="#"> DIEN THOAI</a></li>
+                        <li><a href="#"> LAPTOP</a></li>
+                        <li><a href="#"> TU LANH</a></li>
+                    </ul>
+                </li>
+                <li><a href="#"> MANG </a>
+                    <ul class="sub-menu">
+                        <li><a href="#"> 3G</a></li>
+                        <li><a href="#"> 4G</a></li>
+                        <li><a href="#"> 5G</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">HO TRO</a>
+                    <ul class="sub-menu">
+                        <li><a href="#"> SĐT </a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <div class="content">
+            <aside>
+
+            </aside>
+            <section>
+
+            </section>
+        </div>
+        <footer>
+
+        </footer>
+    </div>
+</body>
+</html>
